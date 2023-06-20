@@ -1,0 +1,34 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all log files and temp files.
+/log/*
+/tmp/*
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore the PostgreSQL database.
+/db/*.postgresql
+
+# Ignore the Redis dump file.
+/db/*.rdb
+
+# Ignore generated assets and compiled code.
+/public/assets/*
+/public/packs/*
+/public/packs-test/*
+/public/packs-test-*
+
+# Ignore yarn cache files.
+/yarn-error.log
+/yarn.lock
+/node_modules/
+
+# Ignore the default system files.
+/.byebug_history
+/.sass-cache
+/.env
+
+# Ignore Mac-specific files.
+.DS_Store
